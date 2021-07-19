@@ -1,3 +1,5 @@
 universal = Studio.create(name: 'Universal Studios', location: 'Hollywood')
+paramount = Studio.create(name: 'Paramount Pictures', location: 'Hollywood')
 universal.movies.create(title: 'Raiders of the Lost Ark', creation_year: 1981, genre: 'Action/Adventure')
 universal.movies.create(title: 'Shrek', creation_year: 2001, genre: 'Comedy')
+paramount.movies.create(title: 'Interstellar', creation_year: 2014, genre: 'Sci-fi/Adventure')
